@@ -1,4 +1,5 @@
 /vendor
 composer.phar
-composer.lock
 .DS_Store
+/app/config/packages/
+/public/packages

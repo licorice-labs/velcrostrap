@@ -1,5 +1,6 @@
 {
 	"require": {
+        "licorice-labs/velcro": "dev-master",
 		"laravel/framework": "4.0.*"
 	},
 	"autoload": {

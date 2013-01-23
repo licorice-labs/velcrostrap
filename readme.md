@@ -1,3 +1,17 @@
+# Velcrostrap
+
+A boilerplate for running Laravel 4 in the cloud.
+
+Get running on Heroku in a few simple commands
+
+```
+$ git init velcrostrap_bp
+$ cd velcrostrap_bp
+$ git pull git@github.com:licorice-labs/velcrostrap.git
+$ heroku apps:create -b git://github.com/winglian/heroku-buildpack-php#appstrap
+$ git push heroku
+
+
 ## Laravel 4.x
 
 ### A Framework For Web Artisans
