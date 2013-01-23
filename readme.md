@@ -10,6 +10,7 @@ $ cd velcrostrap_bp
 $ git pull git@github.com:licorice-labs/velcrostrap.git
 $ heroku apps:create -b git://github.com/winglian/heroku-buildpack-php#appstrap
 $ git push heroku
+```
 
 
 ## Laravel 4.x

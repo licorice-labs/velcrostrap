@@ -18,5 +18,8 @@ $APP_DIR/bin/php artisan config:publish rcrowe/twigbridge
 $APP_DIR/bin/php artisan config:publish licorice-labs/velcro
 $APP_DIR/bin/php artisan asset:publish licorice-labs/velcro
 
+# set write perms on storage
+find app/storage/ -type d -exec chmod 0777 {} \;
+
 # cleanup .git directory
 find $REPO_DIR -maxdepth 1 -name .git -exec rm -rf {} \;
